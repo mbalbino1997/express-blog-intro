@@ -3,31 +3,31 @@ const list =
         {
             title: "titolo1",
             content: "contenuto1",
-            img: "./public/img/ciambellone.jpeg",
+            img: "./img/ciambellone.jpeg",
             tags: ["assd", "asda", "aeqwd"]
         },
         {
             title: "titolo1",
             content: "contenuto1",
-            img: "./public/img/cracker_barbabietola.jpeg",
+            img: "./img/cracker_barbabietola.jpeg",
             tags: ["assd", "asda", "aeqwd"]
         },
         {
             title: "titolo1",
             content: "contenuto1",
-            img: "./public/img/pane_fritto_dolce.jpeg",
+            img: "./img/pane_fritto_dolce.jpeg",
             tags: ["assd", "asda", "aeqwd"]
         },
         {
             title: "titolo1",
             content: "contenuto1",
-            img: "./public/img/pasta_barbabietola.jpeg",
+            img: "./img/pasta_barbabietola.jpeg",
             tags: ["assd", "asda", "aeqwd"]
         },
         {
             title: "titolo1",
             content: "contenuto1",
-            img: "./public/img/torta_paesana.jpeg",
+            img: "./img/torta_paesana.jpeg",
             tags: ["assd", "asda", "aeqwd"]
         }
     ]
