@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
         <title>Document</title>
     </head>
     <body>
-        <img src="${list[0].img}" alt="">
+        <img src="${list[1].img}" alt="">
     </body>
     </html>`)
 })
