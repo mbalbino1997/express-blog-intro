@@ -3,9 +3,8 @@ const app = express();
 const port = 3000;
 const list = require("./list.js")
 app.use(express.static("public"));
-app.listen(port, () => {
-    console.log(`server in ascolto sula porta ${port}`)
-})
+
+
 app.get("/", (req, res) => {
     res.send(`<!DOCTYPE html>
     <html lang="en">
@@ -15,7 +14,7 @@ app.get("/", (req, res) => {
         <title>Document</title>
     </head>
     <body>
-        <img src="${list[1].img}" alt="">
+        <img src="${list[0].img}" alt="">
     </body>
     </html>`)
 })
@@ -29,3 +28,14 @@ app.get("/bacheca", (req, res) => {
     res.json(newList)
 })
 
+
+const server = app.listen(port, () => {
+    console.log(`server in ascolto sula porta ${port}`)
+})
+
+
+process.on('SIGINT', () => {
+    server.close();
+    console.log('Exit Server');
+    process.exit(0);
+});
